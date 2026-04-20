@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #22c55e;
+    text-shadow: 0 0 10px #22c55e;
+    letter-spacing: 2px;
+}
+
+.card {
+    border: 1px solid white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nota {
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 4px solid #38bdf8;
+    background: #020617;
+    font-style: italic;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #38bdf8;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #0ea5e9;
+}
+
+img {
+    width: 550px;   /* controla tamanho */
+    height: auto;   /* mantém proporção */
+    margin-bottom: 10px;
+}
+    
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #020617;
+}
+
+.gif {
+    width: 80px;     /* controla tamanho */
+    margin-bottom: 10px;
+}
+
+.grande {
+    font-size: 28px;
+}
+
+.medio {
+    font-size: 20px;
+}
+
+.pequeno {
+    font-size: 14px;
+}
+
+.azul {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.verde {
+    color: #22c55e;
+    text-shadow: 0 0 5px #22c55e;
+}
+
+.alerta {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.suave {
+    color: #94a3b8;
+}
+
+.caixa-texto {
+    background: #020617;
+    padding: 10px;
+    border-left: 4px solid #38bdf8;
+    border-radius: 5px;
+}
+
+.easter-egg {
+    position: absolute;
+    width: 40px;
+    opacity: 0.05;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.easter-egg:hover {
+    width: 70px;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: black; /* fundo */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999; /* fica na frente de tudo */
+    
+    transition: opacity 0.5s; /* efeito suave */
+}
+
+#loading img {
+    width: 600px; /* ajusta o tamanho */
+}
