@@ -33,3 +33,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     setInterval(mover, 30000); // roda a cada 30 segundos
 });
+
+// Botao da ficha
+function toggleFicha() {
+    const ficha = document.getElementById("ficha");
+
+    if (ficha.style.display === "none") {
+        ficha.style.display = "block";
+    } else {
+        ficha.style.display = "none";
+    }
+}
