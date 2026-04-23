@@ -47,6 +47,10 @@ h1 {
     background-color: #0ea5e9;
 }
 
+button {
+    all: unset;
+}
+
 img {
     width: 550px;   /* controla tamanho */
     height: auto;   /* mantém proporção */
