@@ -141,3 +141,24 @@ footer {
 #loading img {
     width: 600px; /* ajusta o tamanho */
 }
+
+.ficha {
+    font-family: 'Inter', sans-serif;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid white;
+    background: #020617;
+    border-radius: 10px;
+}
+
+.ficha h2 {
+    margin-bottom: 10px;
+}
+
+.ficha p {
+    margin: 5px 0;
+}
+
+.ficha strong {
+    color: #38bdf8;
+}
