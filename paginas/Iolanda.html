@@ -5,7 +5,10 @@
         
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
-		<title>Iolanda HTML </title>
+		<title>Iolanda</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
         
 	</head>
     
@@ -15,12 +18,24 @@
         <h1>Agente Iolanda</h1>
         
         <div class="card">
-            <img src="../img/Iolanda.jpeg" alt="voltar" class"img">
+            <img src="../img/Iolanda.jpeg" alt="voltar" class="img">
             <p class="medio verde caixa-texto">Dez de espadas, morte dolorosa e inevitável, evitar a morte é tolice mas até o inevitável bater a porta serei fiel a mim.</p>
         </div>
         
         <a href="https://www.instagram.com/iolinda666?igsh=MWpiMWk4cDNncHkzNQ==" class="botao">Redes sociais</a>
         <a href="../index.html" class="botao">Voltar</a>
+        
+        <!--Botao da ficha-->
+        <button onclick="toggleFicha()" class="botao">Ver Ficha</button>
+        
+        <div id="ficha" class="ficha" style="display: none;">
+            <h2>Ficha do Personagem</h2>
+            <p>Força: 0</p>
+            <p>Agilidade: 2</p>
+            <p>Intelecto: 4</p>
+            <p>Vigor: 1</p>
+            <p>Presença: 2</p>
+        </div>
         
         <footer>
             <img src="../img/rodape.gif" class="gif">
