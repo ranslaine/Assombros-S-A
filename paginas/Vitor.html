@@ -5,7 +5,10 @@
         
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
-		<title> Vitor HTML </title>
+		<title> Vitor</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
         
 	</head>
     
@@ -15,12 +18,25 @@
         <h1>Agente Vitor</h1>
         
         <div class="card">
-            <img src="../img/Vitor.png" alt="voltar" class"img">
+            <img src="../img/Vitor.png" alt="voltar" class="img">
             <p class="medio verde caixa-texto">Eu não sou gay.</p>
         </div>
         
         <a href="https://www.instagram.com/vitort.wav?igsh=ZzU0YnNtNWo2MjR0" class="botao">Redes sociais</a>
         <a href="../index.html" class="botao">Voltar</a>
+        
+        <!--Botao da ficha-->
+        <button onclick="toggleFicha()" class="botao">Ver Ficha</button>
+        
+        <div id="ficha" class="ficha" style="display: none;">
+            <h2>Ficha do Personagem</h2>
+            <p>Força: 1</p>
+            <p>Agilidade: 3</p>
+            <p>Intelecto: 3</p>
+            <p>Vigor: 1</p>
+            <p>Presença: 3</p>
+        </div>
+        
         
         <footer>
             <img src="../img/rodape.gif" class="gif">
