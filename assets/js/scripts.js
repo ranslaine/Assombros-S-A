@@ -7,8 +7,8 @@ window.addEventListener("load", function() {
 
     setTimeout(() => {
         loading.style.display = "none";
-        }, 1000);
-    }, 2000);
+        }, 700);
+    }, 1500);
 });
 
 
